@@ -1,0 +1,4 @@
+OS: Win32, ia 32, windows 7
+@angular/cli: 1.4.5
+node: 6.11.3
+npm: 3.10.10
