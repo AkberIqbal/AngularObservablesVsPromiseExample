@@ -1,6 +1,6 @@
 @NgModule({
-declarations: [ AppComponent ],
-imports: [ BrowserModule ],
-providers: [ ApiService ],
-bootstrap: [ AppComponent ]
+	declarations: [ AppComponent ],
+	imports: [ BrowserModule ],
+	providers: [ ApiService ],
+	bootstrap: [ AppComponent ]
 })

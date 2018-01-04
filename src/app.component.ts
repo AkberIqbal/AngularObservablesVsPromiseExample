@@ -9,8 +9,8 @@ import { IPostType } from './IPosts.object';
 })
 
 export class AppComponent implements OnInit {
-_postsArray: IPostType[];
-_postsArrayPromise: IPostType[];
+	_postsArray: IPostType[];
+	_postsArrayPromise: IPostType[];
 
 constructor(private apiService:ApiService) {}
 ngOnInit():void {

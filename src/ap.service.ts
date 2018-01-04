@@ -3,6 +3,7 @@ import {Http, Response} from "@angular/http";
 import {Observable} from "rxjs/Observable";
 import "rxjs/Rx";
 import { IPostType } from './IPosts.object';
+
 @Injectable()
 export class ApiService {
 
@@ -25,4 +26,5 @@ getPostsByPromise(): Promise<IPostType[]> {
 	return Promise.resolve(response.json());
 	})
 	}
+
 }
